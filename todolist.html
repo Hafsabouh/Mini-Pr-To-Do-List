@@ -166,7 +166,6 @@
 
         checkbox.addEventListener("change", function () {
           span.classList.toggle("checked", this.checked);
-          this.parentElement.classList.toggle("completed", this.checked);
           updateCounters();
         });
 
